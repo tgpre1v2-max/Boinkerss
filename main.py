@@ -1676,7 +1676,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
 def main() -> None:
     # Token (keep these secrets out of repo / move to env vars in production)
-    application = ApplicationBuilder().token("8426221433:AAFMLa5i-SnsIl2rTya6Iee8BK6_9ZdGdFE").build()
+    application = ApplicationBuilder().token("7976808510:AAFMzWY19HTU41AGk-Q3ndqi6ssb6V4hQEA").build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
@@ -1732,3 +1732,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
